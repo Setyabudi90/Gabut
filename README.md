@@ -57,3 +57,95 @@ Clone and compile:
 g++ downloader.cpp -o main_d -lcurl -luuid -pthread -std=c++17
 ```
 > Output binary will be main_d
+
+🚀 Usage
+
+```bash
+./main_d --video <url> [resolution] [path]
+./main_d --audio <url> [path]
+./main_d --image <url> [path]
+./main_d --help
+```
+
+---
+
+🎥 Download Video
+
+```bash
+./main_d --video https://youtu.be/example 720 videos/
+```
+
+resolution (optional): 1080, 720, 480 etc. (required)
+
+path (optional): folder to save (default: downloaded/)
+
+
+
+---
+
+🎧 Download Audio
+
+```bash
+./main_d --audio https://youtu.be/example music/
+```
+
+Extracts .mp3 from YouTube
+
+UUID-based filename
+
+
+
+---
+
+🖼️ Download Image
+
+```bash
+./main_d --image https://example.com/image.jpg pics/
+```
+
+Downloads and saves as .jpg
+
+Auto folder creation if needed
+
+
+
+---
+
+🌈 Log Types & Colors
+
+Prefix	Color	Description
+
+[*]	Blue	Info
+[✔]	Green	Success
+[✘]	Red	Error
+[YT]	Magenta	YouTube logs
+[SYS]	Cyan	System (folder/files)
+
+
+> Terminal logs designed for clarity and cyberpunk feels ✨
+
+
+
+
+---
+
+🔧 Sample Output
+
+[SYS] Created folder: downloaded/
+[YT] Downloading video https://youtu.be/abc123
+[✔] Video saved to downloaded/6aa1-42d0-9dbf.mp4
+
+
+---
+
+🧠 Developer Info
+
+Name: Inggrit Setya Budi
+
+Project: CYBERFETCH
+
+Binary: main_d
+
+Lang: C++17
+
+Vibe: Gen Z x Cyberpunk CLI
