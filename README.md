@@ -58,6 +58,7 @@ g++ downloader.cpp -o main_d -lcurl -luuid -pthread -std=c++17
 ```
 > Output binary will be main_d
 
+
 🚀 Usage
 
 ```bash
@@ -115,12 +116,13 @@ Auto folder creation if needed
 
 Prefix	Color	Description
 
+```bash
 [*]	Blue	Info
 [✔]	Green	Success
 [✘]	Red	Error
 [YT]	Magenta	YouTube logs
 [SYS]	Cyan	System (folder/files)
-
+```
 
 > Terminal logs designed for clarity and cyberpunk feels ✨
 
@@ -131,21 +133,27 @@ Prefix	Color	Description
 
 🔧 Sample Output
 
+```bash
 [SYS] Created folder: downloaded/
 [YT] Downloading video https://youtu.be/abc123
 [✔] Video saved to downloaded/6aa1-42d0-9dbf.mp4
-
+```
 
 ---
 
-🧠 Developer Info
+---
 
-Name: Inggrit Setya Budi
+## 👤 Developer Info
 
-Project: CYBERFETCH
+| Field        | Detail                            |
+|--------------|------------------------------------|
+| 👨‍💻 Author    | **Inggrit Setya Budi**            |
+| 🧠 Role       | Developer & Designer of CLI Tool  |
+| 🛠️ Language  | C++17                              |
+| ⚙️ Binary     | `main_d`                          |
+| 🎨 Style      | Gen Z × Cyberpunk Terminal Vibes  |
+| 🌐 Platform   | Termux & Linux                    |
+| 📦 Project    | CYBERFETCH - Smart Downloader CLI |
 
-Binary: main_d
-
-Lang: C++17
-
-Vibe: Gen Z x Cyberpunk CLI
+> Always building tools to make CLI life smoother.  
+> Proudly coded in a terminal, probably late at night 💻🌙
