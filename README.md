@@ -76,7 +76,7 @@ g++ downloader.cpp -o main_d -lcurl -luuid -pthread -std=c++17
 ./main_d --video https://youtu.be/example 720 videos/
 ```
 
-resolution (optional): 1080, 720, 480 etc. (required)
+resolution: 1080, 720, 480 etc. (required)
 
 path (optional): folder to save (default: downloaded/)
 
