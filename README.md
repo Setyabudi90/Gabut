@@ -54,7 +54,7 @@ sudo apt install yt-dlp ffmpeg libcurl4-openssl-dev uuid-dev g++
 Clone and compile:
 
 ```bash
-g++ downloader.cpp -o main_d -lcurl -luuid -pthread -std=c++17
+g++ main.cpp -o main_d -lcurl -luuid -pthread -std=c++17
 ```
 > Output binary will be main_d
 
