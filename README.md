@@ -141,8 +141,6 @@ Prefix	Color	Description
 
 ---
 
----
-
 ## 👤 Developer Info
 
 | Field        | Detail                            |
